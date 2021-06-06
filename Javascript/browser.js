@@ -11,19 +11,21 @@ else if (window.navigator.userAgent.indexOf("CrOS")           != -1) OSName="Chr
 else if (window.navigator.userAgent.indexOf("Linux")          != -1) OSName="Linux";
 
 
-if (OSName != 'Windows XP' && OSName != 'Windows 2000' && OSName != 'Chrome OS') {
+if (OSName != "Windows XP" && OSName != "Windows 2000" && OSName != "Chrome OS") {
     document.getElementById("osbrowser").innerHTML = `Installations for ${OSName}`;
-} else if (OSName == 'Windows XP' || OSName == 'Windows 2000' || OSName == 'Chrome OS') {
+} else if (OSName == "Windows XP" || OSName == "Windows 2000" || OSName == "Chrome OS") {
     document.getElementById("osbrowser").innerHTML = `${OSName} is an unsupported operating system.`;
+    var unsupported = true;
 } else {
     document.getElementById("osbrowser").innerHTML = `Installations for Unknown`;
+    var unknown = true;
 }
 
-if (OSName == 'Windows Vista' || OSName == 'Windows 7' || OSName == 'Windows 8' || OSName == 'Windows 8.1' || OSName == 'Windows 10') {
-    document.getElementById("installbtns").innerHTML = `<form><button formaction="https://drive.google.com/file/d/1bNBNVpdpjL9kjSB1PvLhyRrH-DlNBHlH/view?usp=sharing"><span class="installZIP">Install Noggle Browser a0.3 <em>(.zip, 5.7 KB)</em></span></button></form>`;
-} else if (OSName == 'Windows XP' || OSName == 'Windows 2000') {
-        document.getElementById("installbtns").innerHTML = `<em>Please upgrade your system to Windows Vista or higher to use Noggle Browser</em>`;
-} else if (OSName == 'Chrome OS') {
-        document.getElementById("installbtns").innerHTML = `<em>Due to Chrome OS being largely based on Chrome (the browser), it is unable to run Python and the required dependencies. You can use Crostini or Crouton to install and run Python and the needed dependencies via Linux.</em>`;
+if (OSName == "Windows Vista" || OSName == "Windows 7" || OSName == "Windows 8" || OSName == "Windows 8.1" || OSName == "Windows 10") {
+    document.getElementById("installbtns").innerHTML = '<form><button formaction="https://drive.google.com/file/d/1bNBNVpdpjL9kjSB1PvLhyRrH-DlNBHlH/view?usp=sharing"><span class="installZIP">Install Noggle Browser a0.3 <em>(.zip, 5.7 KB)</em></span></button></form>';
+} else if (OSName == "Windows XP" || OSName == "Windows 2000") {
+        document.getElementById("installbtns").innerHTML = "<em>Please upgrade your system to Windows Vista or higher to use Noggle Browser</em>";
+} else if (OSName == "Chrome OS") {
+        document.getElementById("installbtns").innerHTML = "<em>Due to Chrome OS being largely based on Chrome (the browser), it is unable to run Python and the required dependencies. You can use Crostini or Crouton to install and run Python and the needed dependencies via Linux.</em>";
         console.log(`Unsupported OS is ${OSName}`);
-}booleans
+}
