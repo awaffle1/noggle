@@ -1,0 +1,105 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #c9c9c9;
+  position: fixed;
+  color: black;
+  padding-bottom: 10px;
+  color: gray;
+}
+
+.privacypolicybody {
+  text-align: center;
+}
+
+/* noggle picture on index */
+.whatup {
+  padding-top: 20px;
+}
+
+.linksheaderindex {
+  padding-left: 13px;
+}
+
+.tomatoes {
+  font-family: "Open Sans", sans-serif;
+}
+
+a.zipbutton {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+.bbodynoimg {
+  padding-left: 27px;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-size: 100%;
+}
+
+.qlinks {
+  color: black;
+  font-size: 25px;
+}
+
+.browserbody {
+  font-family: "Roboto", serif;
+  background-color: #d1d1d1;
+}
+
+.welcomebody {
+  font-family: "Roboto", serif;
+  background-color: #d1d1d1;
+}
+
+.welcomebodyexif {
+  padding-left: 27px;
+}
+
+.link {
+  font-family: "Open Sans", sans-serif;
+}
+
+.privacypolicyhead {
+  font-family: "Roboto", serif;
+  padding-left: 27px;
+}
+
+.privacypolicy {
+  font-family: "Open Sans", sans-serif;
+}
+
+.downloadbrowser {
+  padding-left: 27px;
+}
+
+.downloadbrowserbody {
+  background-color: #d1d1d1;
+}
+
+.headerindex {
+  /* I've got no clue why this is rgb and not hex, just go with it */
+  background-color: rgb(82, 82, 82);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  color: black;
+  padding-top: 10px;
+  color: gray;
+}
+
+.vercrindex {
+  color: gray;
+  font-size: 0.725em;
+}
