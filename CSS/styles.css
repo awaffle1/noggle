@@ -3,10 +3,24 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: gray;
+  background-color: #c9c9c9;
   position: fixed;
   color: black;
   padding-bottom: 10px;
+  color: gray;
+}
+
+.privacypolicybody {
+  text-align: center;
+}
+
+/* noggle picture on index */
+.whatup {
+  padding-top: 20px;
+}
+
+.linksheaderindex {
+  padding-left: 13px;
 }
 
 .tomatoes {
@@ -28,6 +42,7 @@ a.zipbutton {
 
 body {
   font-family: "Roboto", serif;
+  font-size: 100%;
 }
 
 .qlinks {
@@ -68,4 +83,23 @@ body {
 
 .downloadbrowserbody {
   background-color: #d1d1d1;
+}
+
+.headerindex {
+  /* I've got no clue why this is rgb and not hex, just go with it */
+  background-color: rgb(82, 82, 82);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  color: black;
+  padding-top: 10px;
+  color: gray;
+}
+
+.vercrindex {
+  color: gray;
+  font-size: 0.725em;
 }
