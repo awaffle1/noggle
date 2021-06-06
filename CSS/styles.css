@@ -9,18 +9,63 @@
   padding-bottom: 10px;
 }
 
+.tomatoes {
+  font-family: "Open Sans", sans-serif;
+}
+
+a.zipbutton {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+.bbodynoimg {
+  padding-left: 27px;
+}
+
 body {
-color: gray;
+  font-family: "Roboto", serif;
 }
 
 .qlinks {
-color: black;
+  color: black;
+  font-size: 25px;
 }
 
-body {
-font-family: "Roboto", serif;
+.browserbody {
+  font-family: "Roboto", serif;
+  background-color: #d1d1d1;
+}
+
+.welcomebody {
+  font-family: "Roboto", serif;
+  background-color: #d1d1d1;
+}
+
+.welcomebodyexif {
+  padding-left: 27px;
 }
 
 .link {
-font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.privacypolicyhead {
+  font-family: "Roboto", serif;
+  padding-left: 27px;
+}
+
+.privacypolicy {
+  font-family: "Open Sans", sans-serif;
+}
+
+.downloadbrowser {
+  padding-left: 27px;
+}
+
+.downloadbrowserbody {
+  background-color: #d1d1d1;
 }
